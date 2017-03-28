@@ -4,7 +4,9 @@ from time import time
 
 
 def roll_dice():
-    """Roll 'dice' with Python's random library seeded with current time."""
+    """Roll 'dice' with Python's random library seeded with current time.
+       Random library is re-seeded with current time before each roll to
+       increase entropy."""
 
     random.seed(time())
 
@@ -45,7 +47,7 @@ def generate_diceware_pw(word_count):
 
         diceware_list.append(word)
 
-    print ''.join(diceware_list)
+    return ''.join(diceware_list)
 
 generate_diceware_pw(6)
 
