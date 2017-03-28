@@ -1,4 +1,4 @@
-## A Password Manager Built for Learning Purposes
+# A Password Manager Built for Learning Purposes
 
-# #TODO
+### #TODO
 See <a href='https://github.com/ashleyabrooks/password-manager/issues'>open issues</a>. 
