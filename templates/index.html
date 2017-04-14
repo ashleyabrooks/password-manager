@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Diceware Generator</title>
+</head>
+
+<body>
+    <h1>Generate A Diceware Password</h1>
+    <h3>How many words would you like in your password?</h3>
+    <p>(6 is the recommended length)</p>
+
+    <form action="/generate-diceware" method="POST">
+        <input type='number' name='pw-length'>
+        <input type='submit' value='Generate Password'>
+    </form>
+</body>
+</html>
